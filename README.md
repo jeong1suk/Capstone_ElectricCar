@@ -20,4 +20,4 @@ https://datacook.tistory.com/60 여기서 mask 예시 해본 다음에 roboflow 
 
  코드 문제 예측한 사진 저장을 exp_num 돌릴때마다 num이 커져서 확인할려면 detect_img_path를 계속 수정해 줘야함
 
-라벨은 ['head', 'helmet', 'person'] 3갠데 결과가 helmat에 대해서만 나옴 head나 person도 나오게 해볼 예정
+라벨은 ['head', 'helmet', 'person'] 3갠데 결과가 helmat에 대해서만 나옴 head나 person도 나오게 해봐야 함
