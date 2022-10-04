@@ -32,4 +32,4 @@ https://datacook.tistory.com/60 여기서 mask 예시 해본 다음에 roboflow 
 
 라벨은 ['head', 'helmet', 'person'] 3갠데 결과가 helmat에 대해서만 나옴 head나 person도 나오게 해봐야 함
 
-엄청 어두운 경우나 조명을 받은 번호판의 경우 원하는 색상 구분이 안됨
+엄청 어두운 경우나 번호판에 조명을 받은 경우 원하는 색상 구분이 안됨
