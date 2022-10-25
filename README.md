@@ -31,3 +31,9 @@ https://datacook.tistory.com/60 여기서 mask 예시 해본 다음에 roboflow 
  코드 문제 예측한 사진 저장을 exp_num 돌릴때마다 num이 커져서 확인할려면 detect_img_path를 계속 수정해 줘야함
 
 -> detect.py 수정예정
+-> detrct.py에 
+    filePath = '/content/yolov5/runs/detect/ele/';
+    if os.path.exists(filePath):
+        shutil.rmtree(filePath)
+    추가해서 저장할려는 폴더가 있으면 삭제해줌
+    exp 숫자 안늘어나게 
