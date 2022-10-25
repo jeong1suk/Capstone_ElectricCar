@@ -37,3 +37,6 @@ https://datacook.tistory.com/60 여기서 mask 예시 해본 다음에 roboflow 
         shutil.rmtree(filePath)
     추가해서 저장할려는 폴더가 있으면 삭제해줌
     exp 숫자 안늘어나게 
+
+
+자동차 번호판에 대해서만 학습해서 적재물이나 킥보드 다른 class들도 넣어서 해봐야함
